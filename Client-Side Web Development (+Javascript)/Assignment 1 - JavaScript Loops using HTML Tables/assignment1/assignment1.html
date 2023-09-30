@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Yaatu Adem for COMP125, Student #301294492-->
+<head>	
+    <title>Assignment 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assignment1.css">
+    <link rel="icon" href="icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+    <div class="contentContainer">
+        <header>
+            <h1>Assignment 1</h1>
+            <h3>A webpage that dynamically creates a table on window load event (using JavaScript code)</h3>
+        </header>
+
+        <div class="tableContainer">
+            <table id="multiplicationTable">
+            </table>
+        </div>
+
+        <form id="form">
+            <label for="rows">Enter number of rows: </label>
+            <input type="number" id="rows" name="rows" min="1" max="10"><br>
+            <label for="colms">Enter number of columns: </label>
+            <input type="number" id="colms" name="colms" min="1" max="10"><br>
+            <button id="submit">Create a Table</button>
+        </form>
+    </div>
+
+    <footer>
+        <h6>Copyright Yaatu Adem (301294492), COMP125 Winter 2023</h6>
+    </footer>
+
+    <script src="assignment1.js"></script>
+</body>

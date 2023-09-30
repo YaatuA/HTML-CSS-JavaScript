@@ -1,0 +1,117 @@
+.banner {
+    width: auto;
+}
+
+#bannerPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: left;
+    color: rgb(3, 7, 95);
+    display: flex;
+}
+
+header h5 {
+    flex: 1;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+header h6 {
+    margin-right: 20px;
+    font-size: medium;
+}
+h1 {
+    color:rgb(1, 1, 94);
+    line-height: 8px;
+}
+#productPhoto {
+    padding-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a {
+    color: rgb(23, 8, 191);
+}
+
+a:visited {
+    color: rgb(16, 6, 84);
+}
+a:hover {
+    color:rgb(38, 137, 170);
+}
+
+.productInfo td {
+    vertical-align: top;
+}
+
+#largerImage {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.productInfo td {
+    padding: 10px;
+}
+
+.productPricing tr:nth-child(even) {
+    background-color: rgb(160, 165, 216);
+}
+
+.productPricing tr:nth-child(odd) {
+    background-color: rgb(188, 192, 223);
+}
+
+.productPricing th {
+    background-color: rgb(53, 68, 204);
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.productPricing td {
+    padding: 5px;
+}
+
+.purchaseMap {
+    margin-top: 40px;
+}
+.purchaseMap h1 {
+    font-size: medium;
+}
+
+#purchaseMap {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-size: x-small;
+    color: darkslategrey;
+    text-align: center;
+    border-color: aquamarine;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(215, 219, 255);
+    height: 1024px;
+    width: 980px;
+    margin: 10px;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("background.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    padding: 5px 5px;
+    table-layout: auto;
+}
+
+#home {
+    max-width: 100px;
+}
+
+#navImage {
+    max-height: 75px;
+    max-width: 75px;
+    padding: 2px;
+}
+
+td {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+td a {
+    color: rgb(64, 38, 86);
+    text-decoration: none;
+    scroll-margin-top: 100px;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.515);
+}
+
+.navbar {
+    background-color: rgb(163, 219, 217);
+    padding-top: 5px;
+    margin-left: -7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.mainBody {
+    background-color: rgba(255, 248, 229, 0.515);
+    padding: 0px 30px 20px 30px;
+    border-radius: 5%;
+    margin-top: 150px;
+}
+
+h1, h2 {
+    padding: 25px 10px 10px 10px;
+    text-align: center;
+}
+
+h2 {
+    scroll-margin-top: 100px;
+}
+
+#bodyImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.credits {
+    margin-top: 50px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.credits p {
+    text-indent: -30px;
+    padding-left: 30px;
+}
+
+footer {
+    text-align: center;
+}
+

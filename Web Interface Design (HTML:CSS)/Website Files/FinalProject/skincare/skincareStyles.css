@@ -1,0 +1,111 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(242, 242, 242, 0.3);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: space-around;
+    vertical-align: center;
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header h3 {
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+}
+
+header h3:hover, .headerBuffer a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+#headerLogo {
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+}
+
+#cartIcon {
+    width: 40px;
+    height: 35px;
+    margin-top: 13px;
+}
+
+.headerBuffer {
+    margin: 100px 10px 0px 10px;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+
+.headerBuffer a, .headerBuffer span {
+    margin-right: 5px;
+}
+
+.headerBuffer a {
+    color: rgb(60, 60, 60);
+}
+
+.productContainer {
+    margin: 10px 5px 0px 5px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(242, 242, 242, 0.4)
+}
+
+.productContainer div {
+    margin: 25px;
+}
+
+.productContainer img {
+    height: 180px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.productContainer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.productContainer a p {
+    text-decoration: underline;
+}
+
+footer div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    margin: 15px 5px;
+    padding-top: 25px;
+}
+
+footer h6 {
+    margin: 2em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+footer p a {
+    text-decoration: underline;
+}

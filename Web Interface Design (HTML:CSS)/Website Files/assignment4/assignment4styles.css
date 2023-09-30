@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    padding: 15px 20px;
+}
+
+img {
+    width: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    background-color: rgb(70, 70, 72);
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgb(70, 70, 72);
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: rgb(0, 76, 151);
+}
+a:hover {
+    color: rgb(213, 225, 57);
+}
+
+.instructor, .generalInformation {
+    background-color: white;
+}
+
+form, p {
+    padding-left: 20px;
+}
+
+#submitButton {
+    margin: 20px 0px;
+    font-size: medium;
+    width: 7em;
+    height: 5em;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.formBottom {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formBottom p {
+    line-height: 0.5em;
+}
+
+#semester, #year {
+    font-size: medium;
+}
+
+footer {
+    margin-top: 75px;
+    border-top: solid rgb(70, 70, 72) 1px;
+    padding-top: 25px;
+}
+
+footer p {
+    text-align: center;
+    font-size: smaller;
+}

@@ -1,0 +1,65 @@
+html {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(169, 244, 200, 0.56);
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+div.container {
+    max-width: 512px;
+    height: fit-content;
+}
+
+div.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+div.title {
+    margin: 1rem 0rem;
+}
+
+div.title h1 {
+    margin-bottom: 0.5rem;
+}
+
+div.title p {
+    color: rgb(178, 24, 24);
+}
+
+#score {
+    margin: 0;
+    padding: 0;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    background-color: rgba(104, 155, 248, 0.655);
+}
+
+div.description {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    color: rgb(49, 49, 49);
+    margin: 1rem 0rem;
+ }
